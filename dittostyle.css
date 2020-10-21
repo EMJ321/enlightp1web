@@ -1,0 +1,51 @@
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh;
+  
+  
+  background: linear-gradient(to top, #6dddff, #e7f7fc);
+  color: rgb(15, 110, 165);
+}
+/* this is our body of text and the style we have decided to adopt for the text */
+
+img {
+  height: 235px;
+  border-radius: 15px;
+}
+/* image of ditto specs*/
+
+
+a {
+  color: #919ba0;
+  text-decoration: none;
+  
+}
+a:hover {
+  opacity: .65;
+}
+/* a is the... function? group? of the text that links us to another webpage*/
+
+
+.dark {
+  background: linear-gradient(to top, #01192c, #4b7297);
+  color: rgb(232, 240, 241)
+}
+/* has the class dark, and changes the background and text color */
+
+.dark .cardditto {
+  background: #1f5480;
+}
+/* goes into the class dark and accesses the class card and changes the card color*/
+
+.dark a{
+  color: rgb(218, 230, 235);
+}
+
+.cardditto {
+  background: #f7fcfd;
+  width: 29%;
+  padding: 30px;
+  border-radius: 15px;
